@@ -4,7 +4,7 @@ This meteor package adds [TypeScript](https://www.typescriptlang.org/) support i
 [TypeScript class component's](https://vuejs.org/v2/guide/typescript.html) are not currently supported.
 
 ## Prerequisites
-This package is an add-on for [akryum:meteor-vue-component](akryum/meteor-vue-component). You must first have that package installed.
+This package is an add-on for [akryum:vue-component](https://github.com/Akryum/vue-meteor). You must first have that package installed.
 
 ## Installation
 
