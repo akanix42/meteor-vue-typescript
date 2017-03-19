@@ -17,7 +17,7 @@ Package.registerBuildPlugin({
     'vue-typescript.js',
   ],
   npmDependencies: {
-    'meteor-project-path': '0.0.1',
+    'meteor-project-path': '0.0.3',
     'hasha': '2.2.0',
   }
 });
