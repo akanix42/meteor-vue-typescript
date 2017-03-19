@@ -28,4 +28,7 @@ export default {
 
 ---
 
+## Importing TypeScript files
+This plugin only handles compilation of TypeScript within .vue files. To import other TypeScript files, you must install a .ts compiler such as [barbatus:typescript](https://github.com/barbatus/typescript).
+
 LICENCE ISC - Created by Nathan Reid (@nathantreid)
