@@ -12,6 +12,7 @@ This package is an add-on for [akryum:vue-component](https://github.com/Akryum/v
 
 ## Usage
 
+Set your script's `lang` attribute to `ts` or `typescript`:
 ```html
 <script lang="typescript">
 let message: string;

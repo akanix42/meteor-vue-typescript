@@ -8,6 +8,7 @@ global.vue = global.vue || {}
 global.vue.lang = global.vue.lang || {}
 const typescriptCompiler = new TypeScriptCompiler({ module: 'ES6' });
 global.vue.lang.typescript = Meteor.wrapAsync(typescriptHandler);
+global.vue.lang.ts = global.vue.lang.typescript;
 
 function typescriptHandler({ source, inputFile }, cb) {
   try {
