@@ -1,6 +1,6 @@
 Package.describe({
   name: 'nathantreid:vue-typescript',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Add typescript support for vue components',
   git: 'https://github.com/nathantreid/meteor-vue-typescript',
   documentation: 'README.md'
