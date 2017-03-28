@@ -14,15 +14,15 @@ This package is an add-on for [akryum:vue-component](https://github.com/Akryum/v
 
 Set your script's `lang` attribute to `ts` or `typescript`:
 ```html
-<script lang="typescript">
-let message: string;
+<script lang="ts">
+  let message: string;
 
-export default {
-    ready() {
-        message = 'world';
-        console.log(`Hello, ${message}!`);
+  export default {
+    mounted() {
+      message = 'world';
+      console.log(`Hello, ${message}!`);
     }
-}
+  }
 </script>
 ```
 
