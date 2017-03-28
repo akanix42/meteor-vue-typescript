@@ -4,8 +4,8 @@ import fs from 'fs';
 import meteorProjectPath from 'meteor-project-path';
 import PartialInputFile from './partial-input-file';
 
-global.vue = global.vue || {}
-global.vue.lang = global.vue.lang || {}
+global.vue = global.vue || {};
+global.vue.lang = global.vue.lang || {};
 const typescriptCompiler = new TypeScriptCompiler({ module: 'ES6' });
 global.vue.lang.typescript = Meteor.wrapAsync(typescriptHandler);
 global.vue.lang.ts = global.vue.lang.typescript;
