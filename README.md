@@ -1,3 +1,7 @@
+# No longer maintained
+
+I am now using `nathantreid:vue-typescript-babel` (https://github.com/nathantreid/meteor-vue-typescript-babel) to provide TypeScript in my Vue components.
+
 # Integrate TypeScript with vue single-file components for Meteor
 
 This meteor package adds [TypeScript](https://www.typescriptlang.org/) support in your single-file `.vue` components.
