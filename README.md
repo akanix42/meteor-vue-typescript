@@ -35,12 +35,15 @@ Or with `vue-class-component`:
   let message: string;
 
   @Component
-  export default class MyButton extends Vue {
+  class MyButton extends Vue {
     mounted() {
       message = 'world';
       console.log(`Hello, ${message}!`);
     }
   }
+  
+  // The export default has to be on a separate line due to the way the code is transpiled.
+  export default MyButton;
 </script>
 ```
 
